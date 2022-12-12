@@ -1,3 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+#counter {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+#counter-block {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+}
+
+#counter-block * {
+  width: 100%;
+}
+
+#button-box>button{
+  width: 50%;
+  border-radius: 0;
+  background-color: royalblue;
+  color:cornsilk;
+}
+
+#button-box>button:hover {
+  background-color: #282c34;
+  color:aliceblue;
+}
+
 .App {
   text-align: center;
 }
